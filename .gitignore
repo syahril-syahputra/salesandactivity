@@ -1,0 +1,48 @@
+# Node modules
+node_modules/
+**/node_modules/
+
+# Yarn
+yarn-error.log
+yarn.lock
+
+# Build outputs
+dist/
+build/
+**/dist/
+**/build/
+
+# TypeScript
+*.tsbuildinfo
+
+# Env files
+
+# Logs
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+lerna-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VSCode settings
+.vscode/
+*.code-workspace
+
+# IDE
+.idea/
+*.sw?
+
+# Coverage reports
+coverage/
+**/coverage/
+
+# Next.js (if used in frontend)
+.next/
+out/
+
+# Prisma
+prisma/migrations/
+**/.env
